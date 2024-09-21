@@ -16,6 +16,19 @@
     display: none;
 }
 
+/*Seccion superior*/
+.superior__seccion__container {
+    display: flex;
+    /*Elementos alineados*/
+    align-items: center;
+    /*Elementos centrados en el contenedor*/
+    white-space: nowrap;
+    /*Los textos no se dividen*/
+    overflow: scroll;
+    /*barra de desplazamiento*/
+    gap: 15px;
+}
+
 .rodapie__container {
     display: flex;
     /*flex-direction: column;
