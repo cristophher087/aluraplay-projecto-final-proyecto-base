@@ -1,25 +1,42 @@
 .cabecera__container {
     display: flex;
     /*En este bloque se aplica flex y se organiza por defecto en linea*/
-    justify-content: space-between; /*Genera in espacio entre items siempre igual*/
-    align-items: center;/*Centra los items en el centro de la caja*/
-    position: fixed; /*La cabecera se queda fija en la parte superior de la pantalla*/
-    top: 0; /*Posiciona la cabecera en una posicion 0*/
+    justify-content: space-between;
+    /*Genera in espacio entre items siempre igual*/
+    align-items: center;
+    /*Centra los items en el centro de la caja*/
+    position: fixed;
+    /*La cabecera se queda fija en la parte superior de la pantalla*/
+    top: 0;
+    /*Posiciona la cabecera en una posicion 0*/
 }
 
-.cabecera__buscar__item{
+.cabecera__buscar__item {
     /*Bloque de buscar item desaparece*/
     display: none;
 }
 
-@media (min-width:834px) {
-    /*Solo se mostrara cuando los dispositivos tengan al menos 834px de ancho*/
-    .cabecera__buscar__item{
-        display: block;
-    }
+.rodapie__container {
+    display: flex;
+    /*flex-direction: column;
+    /*Cambia direccion de la columna generada en "display: flex" a vertical*/
+    /*flex-wrap: wrap;/*Modifica automaticamente el contenido en bloques en secuencia segun el ancho de pantalla*/
+    flex-flow: column wrap;
+    /*Esta linea de codigo hace lo mismo que flex-direction y flex-wrap*/
+
 }
 
-.rodapie__container{
-    display: flex;
-    flex-direction: column;/*Cambia direccion de la columna generada en "display: flex" a vertical*/
+/*Solo se mostrara cuando los dispositivos tengan al menos 834px de ancho*/
+@media (min-width:834px) {
+
+    /*Cabecera*/
+    .cabecera__buscar__item {
+        display: block;
+    }
+
+    /*Rodapie*/
+    .rodapie__container {
+        justify-content: space-between;
+        /*Espacio entre cada una de las columnas*/
+    }
 }
