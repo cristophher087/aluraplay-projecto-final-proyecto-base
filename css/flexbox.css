@@ -6,3 +6,15 @@
     position: fixed; /*La cabecera se queda fija en la parte superior de la pantalla*/
     top: 0; /*Posiciona la cabecera en una posicion 0*/
 }
+
+.cabecera__buscar__item{
+    /*Bloque de buscar item desaparece*/
+    display: none;
+}
+
+@media (min-width:834px) {
+    /*Solo se mostrara cuando los dispositivos tengan al menos 834px de ancho*/
+    .cabecera__buscar__item{
+        display: block;
+    }
+}
