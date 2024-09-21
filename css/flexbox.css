@@ -1,3 +1,8 @@
-.cabecera__container{
-    display: flex; /*En este bloque se aplica flex y se organiza por defecto en linea*/
+.cabecera__container {
+    display: flex;
+    /*En este bloque se aplica flex y se organiza por defecto en linea*/
+    justify-content: space-between; /*Genera in espacio entre items siempre igual*/
+    align-items: center;/*Centra los items en el centro de la caja*/
+    position: fixed; /*La cabecera se queda fija en la parte superior de la pantalla*/
+    top: 0; /*Posiciona la cabecera en una posicion 0*/
 }
