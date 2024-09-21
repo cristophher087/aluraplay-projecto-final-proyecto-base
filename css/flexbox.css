@@ -1,0 +1,3 @@
+.cabecera__container{
+    display: flex; /*En este bloque se aplica flex y se organiza por defecto en linea*/
+}
