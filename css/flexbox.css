@@ -18,3 +18,8 @@
         display: block;
     }
 }
+
+.rodapie__container{
+    display: flex;
+    flex-direction: column;/*Cambia direccion de la columna generada en "display: flex" a vertical*/
+}
