@@ -112,3 +112,26 @@
         gap: 33px;
     }
 }
+
+@media (min-width:1440px) {
+    .menu__container {
+        width: 239px;
+        /*Ancho del tamaño*/
+        overflow: scroll;
+        /*Agrega un scroll o barra para subir y bajar*/
+    }
+
+    .menu__lista:nth-child(3),
+    .menu__lista:nth-child(3),
+    .menu__lista:nth-child(4) {
+        display: flex;
+        /*los menus se visualizan y se alinean en horizontal*/
+    }
+
+    .menu__lista {
+        height: auto;
+        padding: 20px 17px 20px 15px;
+        /*delimitando contenedor para que el efecto de cambio de color*/
+
+    }
+}
