@@ -78,6 +78,15 @@
     /*Configuracion de tamaño de los videos*/
     height: 303px;
     width: 280px;
+    flex-grow: 1;
+    /*Espacio proporcional entre elementos, el numero hace que el video aumente su tamaño aprobechando el espacio enel contenedor*/
+}
+
+.videos__container {
+    display: flex;
+    flex-wrap: wrap;
+    /*distribucion de los videos en todo el contenedor*/
+
 }
 
 /* DESAFIO DESCRIPCIÓN DE LOS VIDEOS */
