@@ -28,16 +28,27 @@
     /*Se establece el ancho con 100% para que abarce todo*/
 }
 
-.menu__lista{
-    display: flex; /*fletbox*/
+.menu__lista {
+    display: flex;
+    /*fletbox*/
+    justify-content: space-around;/*Elementos tienen un espacio entre ellos*/
+    height: 100%;
 
 }
+
+.menu__lista li {
+    /*Se especifica con "li" para señalar el elementos con el que se decea trabajar*/
+    align-self: center;/*centra los elementos en el centro del contenedor*/
+}
+
 /*nth nos ayuda a trabajar con elementos hermanos, en este caso estamos ocultando los menu listas 2, 3, 4*/
 .menu__lista:nth-child(3),
 .menu__lista:nth-child(3),
-.menu__lista:nth-child(4){
-    display:none;
+.menu__lista:nth-child(4) {
+    display: none;
 }
+
+
 
 /*Seccion superior*/
 .superior__seccion__container {
