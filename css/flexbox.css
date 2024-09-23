@@ -132,11 +132,32 @@
         height: auto;
         padding: 20px 17px 20px 15px;
         /*delimitando contenedor para que el efecto de cambio de color*/
-        gap: 15px;/*Reducir espacio entre elementos*/
+        gap: 15px;
+        /*Reducir espacio entre elementos*/
     }
-    .menu__itens{
-        flex-direction: row; /*Posicionar elementos uno al lado de otro*/
-        gap: 15px;/*Espacio entre elementos*/
-        align-items: center;/*Centrar elementos icono y texto a la misma altura*/
+
+    .menu__lista:nth-child(3){
+        flex-direction: column-reverse;/*Ajustando lista que estaba invertida*/
+    }
+
+    .menu__itens {
+        flex-direction: row;
+        /*Posicionar elementos uno al lado de otro*/
+        gap: 15px;
+        /*Espacio entre elementos*/
+        align-items: center;
+        /*Centrar elementos icono y texto a la misma altura*/
+    }
+    /*configuracion de elementos de contenedor mas de la pagina*/
+    .videojuegos{
+        order: 3;
+    }
+
+    .peliculas{
+        order: 2;
+    }
+
+    .premium{
+        order: 1;
     }
 }
