@@ -86,7 +86,7 @@
     display: flex;
     flex-wrap: wrap;
     /*distribucion de los videos en todo el contenedor*/
-
+    gap: 10px;/*Espacio entre cada uno de los videos*/
 }
 
 /* DESAFIO DESCRIPCIÓN DE LOS VIDEOS */
