@@ -73,6 +73,13 @@
     gap: 15px;
 }
 
+/*Seccion videos*/
+.videos__item{
+    /*Configuracion de tamaño de los videos*/
+    height: 303px;
+    width: 280px;
+}
+
 .rodapie__container {
     display: flex;
     /*flex-direction: column;
@@ -136,8 +143,9 @@
         /*Reducir espacio entre elementos*/
     }
 
-    .menu__lista:nth-child(3){
-        flex-direction: column-reverse;/*Ajustando lista que estaba invertida*/
+    .menu__lista:nth-child(3) {
+        flex-direction: column-reverse;
+        /*Ajustando lista que estaba invertida*/
     }
 
     .menu__itens {
@@ -148,16 +156,17 @@
         align-items: center;
         /*Centrar elementos icono y texto a la misma altura*/
     }
+
     /*configuracion de elementos de contenedor mas de la pagina*/
-    .videojuegos{
+    .videojuegos {
         order: 3;
     }
 
-    .peliculas{
+    .peliculas {
         order: 2;
     }
 
-    .premium{
+    .premium {
         order: 1;
     }
 }
