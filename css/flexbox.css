@@ -132,6 +132,11 @@
         height: auto;
         padding: 20px 17px 20px 15px;
         /*delimitando contenedor para que el efecto de cambio de color*/
-
+        gap: 15px;/*Reducir espacio entre elementos*/
+    }
+    .menu__itens{
+        flex-direction: row; /*Posicionar elementos uno al lado de otro*/
+        gap: 15px;/*Espacio entre elementos*/
+        align-items: center;/*Centrar elementos icono y texto a la misma altura*/
     }
 }
