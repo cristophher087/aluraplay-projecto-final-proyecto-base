@@ -16,6 +16,14 @@
     display: none;
 }
 
+/*Menu container*/
+.menu__container{
+    position: fixed;/*Se ubica en el lado izquierdo y se fija*/
+    bottom: 0%;/*Se ubica en la parte inferior*/
+    height: 75px;/*Se establece altura para disminuirla*/
+    width: 100%; /*Se establece el ancho con 100% para que abarce todo*/
+}
+
 /*Seccion superior*/
 .superior__seccion__container {
     display: flex;
