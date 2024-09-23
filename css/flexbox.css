@@ -31,14 +31,24 @@
 .menu__lista {
     display: flex;
     /*fletbox*/
-    justify-content: space-around;/*Elementos tienen un espacio entre ellos*/
+    justify-content: space-around;
+    /*Elementos tienen un espacio entre ellos*/
     height: 100%;
 
 }
 
 .menu__lista li {
     /*Se especifica con "li" para señalar el elementos con el que se decea trabajar*/
-    align-self: center;/*centra los elementos en el centro del contenedor*/
+    align-self: center;
+    /*centra los elementos en el centro del contenedor*/
+}
+
+.menu__itens {
+    display: flex;
+    flex-direction: column;
+    /*Alinear elementos en columna*/
+    gap: 5px;
+    /*Despegar icono de texto*/
 }
 
 /*nth nos ayuda a trabajar con elementos hermanos, en este caso estamos ocultando los menu listas 2, 3, 4*/
