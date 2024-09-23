@@ -17,11 +17,26 @@
 }
 
 /*Menu container*/
-.menu__container{
-    position: fixed;/*Se ubica en el lado izquierdo y se fija*/
-    bottom: 0%;/*Se ubica en la parte inferior*/
-    height: 75px;/*Se establece altura para disminuirla*/
-    width: 100%; /*Se establece el ancho con 100% para que abarce todo*/
+.menu__container {
+    position: fixed;
+    /*Se ubica en el lado izquierdo y se fija*/
+    bottom: 0%;
+    /*Se ubica en la parte inferior*/
+    height: 75px;
+    /*Se establece altura para disminuirla*/
+    width: 100%;
+    /*Se establece el ancho con 100% para que abarce todo*/
+}
+
+.menu__lista{
+    display: flex; /*fletbox*/
+
+}
+/*nth nos ayuda a trabajar con elementos hermanos, en este caso estamos ocultando los menu listas 2, 3, 4*/
+.menu__lista:nth-child(3),
+.menu__lista:nth-child(3),
+.menu__lista:nth-child(4){
+    display:none;
 }
 
 /*Seccion superior*/
